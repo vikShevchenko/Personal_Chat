@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <div class="wrapper">
+      <%- include('./partials/nav.ejs') %>
+      <h1>Contacts:</h1>
+      <ul class="contacts">
+        <% if (contacts.length) { %> <% contacts.forEach(({ link, name }) => {
+        %>
+        <li>
+          <a class="cotacts_link" href="<%= link %>"><%= name %></a>
+        </li>
+        <% }) %> <% } %>
+      </ul>
+      <marquee direction="left">
+        <h3 class="string">
+          You can order a site by calling the number, as well as writing to the
+          postal address 😉
+        </h3></marquee
+      >
+    </div>
+  </body>
+</html>
