@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node run server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js"
   },
   "repository": {
@@ -14,9 +14,9 @@
   "author": "Viktor Shevchenko",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vikShevchenko/Personal_Chat.git"
+    "url": "https://github.com/vikShevchenko"
   },
-  "homepage": "https://github.com/vikShevchenko",
+  "homepage": "https://github.com/vikShevchenko/Personal_Chat.git",
   "devDependencies": {
     "nodemon": "^2.0.7"
   },
